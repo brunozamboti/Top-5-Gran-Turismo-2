@@ -1,0 +1,25 @@
+body {
+    background-color:#111;
+    color:white;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 40px;
+
+}
+
+.carro {
+    background-color: #222;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.carro img {
+    width: 500px;
+    max-width: 100%
+    display: block;
+    margin: 20 px auto;
+}
