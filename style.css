@@ -8,7 +8,23 @@ body {
 
 h1 {
     font-size: 40px;
+    text-align: center;
+    margin-bottom: 10px;
+}
 
+.introducao {
+    text-align: center;
+    font-size: 18px;
+    color: #bbb;
+    margin-bottom: 30px;
+}
+
+h2 {
+    font-size: 28px;
+    margin-top: 0;
+    margin-bottom: 20px;
+    border-bottom: 2px solid #444;
+    padding-bottom: 8px;
 }
 
 .carro {
@@ -21,7 +37,44 @@ h1 {
 
 .carro img {
     width: 500px;
-    max-width: 100%
+    max-width: 100%;
     display: block;
-    margin: 20 px auto;
+    margin: 20px auto;
+}
+
+.ficha {
+    list-style: none;
+    background-color: #181818;
+    padding: 10px;
+    border-radius: 6px;
+    margin-top: 15px;
+}
+
+.ficha li {
+    padding: 8px 0;
+}
+
+.ficha li:not(:last-child) {
+    border-bottom: 1px solid #444;
+}
+
+.ficha strong {
+    display: inline-block;
+    width: 70px;
+    color: #ddd;
+    font-weight: bold;
+}
+
+.carro h3 {
+    font-size: 24px;
+    margin-top: 0;
+    margin-bottom: 15px;
+}
+
+.motivo {
+    margin-top: 20px;
+    padding: 15px;
+    background-color: #181818;
+    border-left: 4px solid #888;
+    line-height: 1.6;
 }
